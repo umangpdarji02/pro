@@ -1,0 +1,16 @@
+pipeline{
+    agent any
+
+   stages{
+   
+    stage('run python program'){
+        steps{
+
+            bat "python marks.py"
+            
+        }
+    }
+
+   }
+
+}
